@@ -6,7 +6,11 @@
   "scripts": {
     "start": "python -m http.server 8000",
     "build": "echo 'Build completo. Pronto para publicação.'",
-    "deploy": "echo 'Use GitHub Pages, Vercel ou Netlify para deploy'"
+    "deploy": "echo 'Use GitHub Pages, Vercel ou Netlify para deploy'",
+    "test": "npx cypress run",
+    "test:open": "npx cypress open",
+    "test:headed": "npx cypress run --headed",
+    "test:debug": "npx cypress run --debug"
   },
   "keywords": [
     "qa",
